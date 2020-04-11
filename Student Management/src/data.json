@@ -1,0 +1,61 @@
+    [   
+        {
+            "username":"admin",
+            "password":"admin",
+            "role":"admin"
+        },
+        {
+        "id": "1",
+        "fname": "Veeresh",
+        "lname": "Kali",
+        "dob": "21/05/1994",
+        "mobile":"9121165050",
+        "address":"Hyderabad",
+        "role":"student",
+        "username": "s1",
+        "password": "s1"
+      },
+      {
+        "id": "2",
+        "fname": "Rakesh",
+        "lname": "Kokkula",
+        "dob": "N/A",
+        "mobile":"8686839639",
+        "address":"KarimNagar",
+        "role":"student",
+        "username": "s2",
+        "password": "s2"
+     },
+    {
+        "id": "3",
+        "fname": "Praveen",
+        "lname": "Goshi",
+        "dob": "N/A",
+        "mobile":"7777777777",
+        "address":"VidyaNagar",
+        "role":"student",
+        "username": "s3",
+        "password": "s3"
+    },
+    {    
+        "id": "4",
+        "fname": "Naveen",
+        "lname": "Naveen",
+        "dob": "N/A",
+        "mobile":"8888888888",
+        "address":"Nellore",
+        "role":"student",
+        "username": "s4",
+        "password": "s4"
+    },
+    {
+        "id": "5",
+        "fname": "Prasad",
+        "lname": "Prasad",
+        "dob": "N/A",
+        "mobile":"9999999999",
+        "address":"Bangalore",
+        "role":"student",
+        "username": "s5",
+        "password": "s5"
+    }]

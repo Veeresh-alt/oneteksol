@@ -1,0 +1,147 @@
+.container{
+	width: auto;
+	height: 100%;}
+.block{display: block;}
+.top{
+	width: auto;
+	height: 50px;
+	margin: 0px auto;
+	background-color: orange;}
+.Tleft{float: left;
+	width: 200px;
+	height: 95%;}
+.logo{float: right;
+	color: white;
+	height: 90%;
+	margin-top: 5px;}
+.sup{font-size: .5em;}
+.Tright{float: right;
+		height: 95%;
+		width: 350px;}
+.top2{
+	width: auto;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;}
+.pro{
+	width: 1436px;
+	height: 70%;
+	position: absolute;
+	bottom: 0px;
+	right:30px;
+	background-color: #fffdd0;
+	background: rgba(255, 253, 208, 0.6);
+	border-radius: 2px;}
+.sear{width: auto;
+	height:700px;
+	background-image: url(books.jpg);
+	background-position: fixed;}
+.student{
+	text-align: center;
+	color: white;
+	font-size: 90px;
+	font-family: Times New Roman;
+	font-weight: lighter;
+	margin-top: 0px;
+	margin-bottom: 0px;}
+.smsize{
+	font-size: 20px;
+	margin-top: 0px;
+}
+.save{
+	margin-top: 0px;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	margin-bottom: 0px;}
+.searchcenter{
+	width: 100%;
+text-align: center;
+position: relative;}
+.searchbox{
+	width: 800px;
+	height: 45px;
+	font-size: 1.5em;
+	border-radius: 1.5px;}
+.findbook{
+	position: absolute;
+	top: 4px;
+	right: 350px;
+	color: white;
+	height: 44px;
+	width: 150px;
+	background-color: orange;
+	border-radius: 4px;
+	font-size: 1.5em;
+	cursor: pointer;}
+.fiveboxes{
+	width: 100%;
+	height:150px;
+	text-align: center;
+	color: white;}
+.divcontainers{
+	float: left;
+	height: 110px;
+	width: 174px;
+	margin: 30px auto 0px auto;
+	display: block;
+	background-color: #fffdd0;
+	/*opacity: .3;*/
+	background: rgba(255, 253, 208, 0.25);
+	border-radius: 4px;
+	margin-left: 300px;}
+.divcon{
+	margin-left: 5px;}
+.div:hover{
+	background-color: orange;
+	opacity: .8;}
+
+.last{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	color: white;}
+.menuleft{
+	width: 78px;
+	height: 95%;
+	float: left;}
+.no{margin: 0px;
+	padding: 0px;
+	color: white;}
+a{text-decoration: none; color: white;}
+.menusign{
+	float: left;
+	width: 75px;
+	height: 95%;
+	margin-left: 5px;}
+.mar{margin:15px auto auto 13px;}
+.more{
+	text-align: center;
+	color: white;
+	width: 78px;
+	height: 95%;
+	float: left;
+	position: relative;
+	display: inline-block;
+	font-size: 1em;}
+.dropdown-content{
+	color: black;
+	display: none;
+	position: absolute;
+	background-color: #f0f0f0;
+	width: 100%;
+	font-size: 1em;
+	z-index: 1;}
+.more:hover .dropdown-content{
+	display: block}
+.sp{padding-top: 15px;}
+.promo{position: absolute;
+		left: 400px;
+		color: red;}
+.promo1{position: absolute;
+		right: 495px;
+		color: purple;}
+.marg{margin-top: 40px;
+		color: white;}
+.markcol{background-color:rgba(255, 253, 208, 0);
+		color: orange;}

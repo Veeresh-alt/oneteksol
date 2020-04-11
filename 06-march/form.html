@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Web page</title>
+</head>
+<!-- onload='document.form1.name1.mobile1.focus()' -->
+<body>  
+  <div class="b container">
+       <!--Header section starts here-->
+<header>
+    <div class="c left1">
+        <h1 class="title">Courseque</h1>
+    </div>
+    <div class="c right1">
+        <div class="topright left1">
+            <a href="#">
+        <p class="left1 log">Log in</p>
+    </a>
+        </div>
+        <form action="">
+        <div class="topright left1 po">
+            
+        <input type="search" class="search left1" placeholder="Search here">
+        <button class="button">
+        <span class="glyphicon glyphicon-search"></span>
+        </button>
+        </div>
+    </form>
+    </div>
+</header>
+<hr style="margin: 8px; color: gray;">
+<!--Header section ends here-->
+
+
+<!--Nav bar-->
+<nav class="nav">
+    <div class="left1 navlist"><a href="index.html"><button class="hw">Home</button></a></div>
+    <div class="left1 navlist"><a href="#"><button class="hw">Courses offered</button></a></div>
+    <div class="left1 navlist"><a href="form.html"><button class="hw">Application Form</button></a></div>
+    <div class="left1 navlist"><a href="#"><button class="hw">Contact</button></a></div>
+
+</nav>
+<!--body section starts here-->
+
+<div class="b wid left1">
+  <div class="application">
+  <form action="" method="get" style="color: black;" name="form1">
+
+    <input type="text" name="name1" placeholder="Enter your Name" class="name" id="name" onchange="inputName(document.form1.name1)" required>
+    <span id="name1">Mandatory*</span>
+    <input type="text" name="mobile1" placeholder="Enter your Mobile No" class="name" 
+    id="mobile" required onchange="mobileNo(documet.form1.mobile1)" maxlength="10">
+    <span id="mobile1">Mandatory*</span>
+    <input type="email" name="mail" placeholder="Enter your Email ID" class="name" required>
+    <select name="" class="name" required>
+        <option value="">PHP</option>
+        <option value="">ASP.NET</option>
+        <option value="">AWS</option>
+        <option value="">PYTHON</option>
+        <option value="">JAVA</option>
+        <option value="">C++</option>
+        <option value="">JAVASCRIPT</option>
+        <option value="" selected>Select course</option>
+    </select>
+    <div>
+    <div class="b left join"><input type="radio" name="join" value="immediately" class="checkbox"><p class="no op">Join Immediately</p></div>
+    <div class="b left join"><input type="radio" name="join" value="later" class="checkbox"><p class="no op">Later</p></div>
+    </div>
+    <div class="b left join">
+    <input type="checkbox" name="" class="checkbox"><p class="no op">Subscribe to our News</p><br>
+    </div>
+    <textarea name="" cols="50" rows="10" placeholder="Write something here..." style="background-color:rgb(255, 253, 208);"></textarea><br>
+    <input type="submit" class="submit" value="submit">
+    
+        </form>
+      </div>
+          </div>
+          
+    <div class="b wi left1">
+        <div class=" navright">
+            <a href="#link1"><button class="hw wh">Link 1</button></a>
+            <a href="#link2"><button class="hw wh">Link 2</button></a>
+            <a href="#link3"><button class="hw wh">Link 3</button></a>
+            <a href="#link4"><button class="hw wh">Link 4</button></a>
+            <a href="#link5"><button class="hw wh">Link 5</button></a>
+            <a href="#"><button class="hw wh">Link 6</button></a>
+            <a href="#"><button class="hw wh">Link 7</button></a>
+            <a href="#"><button class="hw wh">Link 8</button></a>
+         </div>    
+
+</div>
+</div>
+
+
+<script src="javascript.js"></script>
+</body>
+</html>

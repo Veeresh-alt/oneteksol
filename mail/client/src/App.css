@@ -1,0 +1,123 @@
+.b{
+    border: 1px solid black;
+  }
+  .no{
+    margin-right: 0px;
+    padding:0px;
+  }
+  .header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(252, 41, 122);
+    border-bottom: 2px solid gray;
+    color: black;
+    position: fixed;
+    z-index: 1;
+  }
+  .titlediv{
+    height: 100%;
+    width: 350px;
+    float: left;
+  }
+  .titledivstyle{
+    text-align: right;
+    padding-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 3px gray;
+  }
+  .navDiv{
+    float: right;
+    width: 600px;
+    position: relative;
+  }
+  .navButtons{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    height: 35px;
+  }
+  .buttonmar{
+    margin: 5px;
+  }
+  .bodyview{
+  background-color: rgb(214, 228, 239);
+  float: left;
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  top:101px;
+  }
+
+  .contact100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    background-color: #57b846;
+    border-radius: 25px;
+  
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .contact100-form-btn i {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .contact100-form-btn:hover {
+    background-color: #333333;
+  }
+  
+  .contact100-form-btn:hover i {
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  .mainEn{
+    width: 400px;
+    margin: 0px auto;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+  }
+
+  .enquiryform{
+    width: 300px;
+    margin: 0px auto;
+    padding: 10px;
+  }
+.tablestyle{
+  width: 100%;
+}
+table{
+  margin: 0px auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 70%;
+  text-align: center;
+  border-radius: 50px;
+}
+  td{
+    border: 1px solid black;
+    border-radius: 50px;
+  }
